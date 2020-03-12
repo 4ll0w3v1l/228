@@ -36,7 +36,7 @@ header p{
 }
 
 header button{
-	background-color:black;
+	background-color:#333333;
 	color: #8a8fa3;
 	font-size: 24px;
 	text-align: center;
@@ -47,8 +47,11 @@ header button{
 	padding: 10px 40px;
 }
 header div{
+	background-color:#333333;
 	position:fixed;
-	bottom: 0;
 	left: 0;
 	width: 100%;
+	padding: 20px 40px;
+	bottom: 0;
+	
 }
