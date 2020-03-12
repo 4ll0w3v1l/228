@@ -80,7 +80,6 @@ header div{
 	z-index: 0;
 	height: 100vh;
 	/*fulscreen*/
-	padding: 0px 40px;
 	margin: 0;
 	width: 100vw;
 }
@@ -122,7 +121,7 @@ header div{
 
 	position: relative;
 	top: -300px;
-	left: -20px;
+	left: 30px;
 }
 
 #desc2{
@@ -154,7 +153,7 @@ header div{
 
 	position: relative;
 	top: -450px;
-	left: -20px;
+	left: 30px;
 }
 
 #porshniNaZakazDiv{
@@ -173,7 +172,7 @@ header div{
 }
 
 #naZakazP{
-
+	background-color: black;
 	text-align: center;
 	font-family:  sans-serif;
 	font-size: 35px;
