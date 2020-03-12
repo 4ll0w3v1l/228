@@ -46,6 +46,17 @@ header button{
 	text-align: center;
 	padding: 20px 40px;
 }
+
+header div{
+
+	background-color: #333333;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    padding: 20px 40px;
+
+}
 #productionHeader{
 	background-color: black;
 	/*fulscreen*/
@@ -55,7 +66,7 @@ header button{
 	/*fulscreen*/
 	padding: 0px 40px;
 	margin: 0;
-	
+	z-index: -1;
 }
 
 #title1{
