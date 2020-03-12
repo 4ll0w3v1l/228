@@ -10,7 +10,8 @@ header{
 	position:relative;
 	z-index: 0;
 	height: 100vh;
-	/*fulscreen*/
+	width: 100vw;
+		/*fulscreen*/
 
 
 }
@@ -60,18 +61,18 @@ header div{
 
 }
 
-body{
+/*body{
 
 	background-color: black;
 	/*fulscreen*/
-	position:relative;
+/*	position:relative;
 	z-index: 0;
-	height: 100vh;
+	height: 100vh;*/
 	/*fulscreen*/
-	padding: 0px 40px;
+/*	padding: 0px 40px;
 	margin: 0;
 	z-index: -1;
-}
+}*/
 #productionHeaderDiv{
 	background-color: white;
 	/*fulscreen*/
@@ -81,7 +82,7 @@ body{
 	/*fulscreen*/
 	padding: 0px 40px;
 	margin: 0;
-	z-index: -1;
+	width: 100vw;
 }
 
 #title1{
