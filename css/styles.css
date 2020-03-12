@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body{
 
@@ -13,9 +16,12 @@ header{
 	/*fulscreen*/
 	position:relative;
 	z-index: 0;
-	height: 885px;
+	height: 100vh;
 	width: 100vw;
 		/*fulscreen*/
+		overflow: scroll;
+		overflow-x: hidden;
+		overflow-y: auto;
 
 
 }
@@ -78,14 +84,17 @@ header div{
 	z-index: -1;
 }*/
 #productionHeaderDiv{
-	background-color: #ededed;
+	background-color: #fbfbfb;
 	/*fulscreen*/
 	position:relative;
 	z-index: 0;
-	height: 885px;
+	height: 100vh;
 	/*fulscreen*/
 	margin: 0;
 	width: 100vw;
+	overflow: scroll;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 #title1{
@@ -111,7 +120,7 @@ header div{
 }
 
 #desc1Href{
-  background-color: #ededed;
+  background-color: #fbfbfb;
   color: black;
   padding: 14px 25px;
   text-align: center;
