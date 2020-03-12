@@ -1,0 +1,33 @@
+  * {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+
+	background-color: black;
+	/*fulscreen*/
+	position:relative;
+	z-index: 0;
+	height: 100vh;
+	/*fulscreen*/
+
+
+}
+
+header h1{
+
+	font-size: 75px;
+	margin: 0;
+	color: white;
+	position: relative;
+	left: 20px;
+	width: 383px;
+    height: 173px;
+}
+
+header p{
+	font-family:  sans-serif;
+  	color: #8a8fa3; 
+	text-align: center;
+}
