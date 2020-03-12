@@ -99,8 +99,21 @@ body{
 	top:200px;
 	left:310px;
 	border-style: double;
+	border-radius: 14px;
 	width: 61vw;
 }
+
+#desc1Href{
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 14px;
+
+}
+
 #pic1{
 
 	position: relative;
@@ -114,12 +127,23 @@ body{
 	font-size: 40px;
   	color: #8a8fa3; 
 	position: relative;
-	
+	border-radius: 14px;
 	left:310px;
 	border-style: double;
 	width: 61vw;
 
 }
+#desc2Href{
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 14px;
+
+}
+
 
 #pic2{
 
@@ -153,3 +177,4 @@ body{
 	top:250px;
 
 }
+
