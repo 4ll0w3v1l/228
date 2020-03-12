@@ -73,15 +73,14 @@ header button{
   	color: #8a8fa3; 
 	position: relative;
 	top:200px;
-	margin: 0px 0px 0px 40px;
-	left:270px;
-	right: 0;
-	width: 960px; 
+	left:310px;
+	border-style: double;
+	width: 61vw;
 }
 #pic1{
 
 	position: relative;
-	top: -110px;
+	top: -100px;
 
 }
 
