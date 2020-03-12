@@ -44,7 +44,7 @@ header button{
 	opacity: 0.8;
 	color:white;
 	text-align: center;
-	padding: 10px 40px;
+	padding: 20px 40px;
 }
 #productionHeader{
 	background-color: black;
@@ -53,25 +53,35 @@ header button{
 	z-index: 0;
 	height: 100vh;
 	/*fulscreen*/
+	padding: 0px 40px;
+	margin: 0;
 	
 }
 
 #title1{
 	font-size: 70px;
 	color:white;
-	padding: 10px 40px;	 
+	padding: 10px 40px;
+	text-align: center;	 
 
 }
 
 #desc1{
 
 	font-family:  sans-serif;
-	font-size: 30px;
+	font-size: 40px;
   	color: #8a8fa3; 
 	position: relative;
 	top:200px;
-	margin: 30px;
-	left:0;	
+	margin: 0px 0px 0px 40px;
+	left:270px;
+	right: 0;
+	width: 960px; 
+}
+#pic1{
+
+	position: relative;
+	top: -110px;
 
 }
 
