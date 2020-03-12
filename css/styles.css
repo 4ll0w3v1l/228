@@ -36,7 +36,13 @@ header p{
 }
 
 header button{
-
+	background-color:black;
+	color: #8a8fa3;
+	font-size: 24px;
 	position: relative;
 	top:250px;
+	text-align: center;
+	padding: 20px 200px;
+	border-radius: 14px;
+	opacity: 0.8;
 }
