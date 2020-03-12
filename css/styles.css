@@ -13,7 +13,7 @@ header{
 	/*fulscreen*/
 	position:relative;
 	z-index: 0;
-	height: 100vh;
+	height: 885px;
 	width: 100vw;
 		/*fulscreen*/
 
@@ -82,7 +82,7 @@ header div{
 	/*fulscreen*/
 	position:relative;
 	z-index: 0;
-	height: 100vh;
+	height: 885px;
 	/*fulscreen*/
 	margin: 0;
 	width: 100vw;
@@ -125,7 +125,7 @@ header div{
 #pic1{
 
 	position: relative;
-	top: -300px;
+	top: -350px;
 	left: 30px;
 }
 
@@ -157,7 +157,7 @@ header div{
 #pic2{
 
 	position: relative;
-	top: -450px;
+	top: -500px;
 	left: 30px;
 }
 
