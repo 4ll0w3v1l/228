@@ -21,61 +21,68 @@ body{
 	text-align: center;
 	
 }
+
 .navBar{
 
-	position: fixed; 
-	background-color: black;
-	color: white;
-	width: 100vw;
-	height: 10vw;
-	display: flex;
-	flex-direction: row;
+	position: fixed;
 	z-index: 1;
-
-}
-
-.navBarP{
-
-	text-align: center;
-	position: relative;
-	top: 20px;
-	border-style: hidden;
-	border-color: white;
-	border-radius: 14px;
-	transition-duration: 1s;	
-}
-
-.navBarP:hover{
-
-	background-color: lightgrey;
-	position: relative;
-	top: 20px;
-  	color: grey;
-  	border: hidden;
-	border-radius: 14px;
-
-
-}
-.navBar a:link, .navBar a:visited{
-
-
-	color: white;
-	text-decoration: none;
-
-}
-
-
-
-.navBarColumn{
-	position: relative;
 	width: 100vw;
-	border-style: hidden;
-	background-color:black;
-	text-align: right;
+}
+ul {
 
+	/*animation*/
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 1;
+	background-color: #333;
+	color: white;
+	animation: rollDown 3s 1;
+	animation-fill-mode: forwards;
+	}
+
+	@keyframes rollDown {
+	0%{height: 100vh}
+/*	99%{height: 5vh;}*/
+	100%{height: 60px;}
+}
+	/*animation*/
+
+ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-size: 25px;
 }
 
+li {
+	float: left;
+	border-style: hidden;
+	border-radius: 14px;
+}
 
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #444;
+	border-style: hidden;
+	border-radius: 14px;
+}
+
+.active {
+	background-color: #777;
+	border-style: hidden;
+	border-radius: 14px;
+}
 
 .main{
 
