@@ -16,16 +16,23 @@ header{
 	/*fulscreen*/
 	position:relative;
 	z-index: 0;
-	height: 80vh;
+	height: 0vh;
 	width: 100vw;
 	/*fulscreen*/
 	overflow: scroll;
 	overflow-x: hidden;
 	overflow-y: auto;
 	z-index: -1;
+	background-color: black;
+	color: white;
+	animation: mymove 5s 1;
+	animation-fill-mode: forwards;
+	}
 
-
+	@keyframes mymove {
+	100% {height: 80vh;}
 }
+
 
 header h1{
 
