@@ -10,9 +10,18 @@ body{
 	background-color: black;
 
 }
+.main{
+
+	position: relative;
+	text-align: center;
+}
 
 
-
+body img {
+  width: 200px;
+  height: 200px;
+  object-fit: scale-down;
+}
 
 .row1 {
   display: flex;
