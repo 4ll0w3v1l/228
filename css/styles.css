@@ -25,11 +25,11 @@ header{
 	z-index: -1;
 	background-color: black;
 	color: white;
-	animation: mymove 5s 1;
+	animation: rollDown 3s 1;
 	animation-fill-mode: forwards;
 	}
 
-	@keyframes mymove {
+	@keyframes rollDown {
 	100% {height: 80vh;}
 }
 
