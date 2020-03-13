@@ -35,17 +35,18 @@ body{
 
 	position: fixed; 
 	background-color: black;
-	color: black;
+	color: white;
 	width: 100vw;
-	height: 70px;
+	height: 100px;
 	display: flex;
+	flex-direction: row;
 	z-index: 1;
 
 }
 
 
 
-.navBar p{
+/*.navBar {
 
 	color: white;
 	font-size: 50px;
@@ -53,8 +54,8 @@ body{
 	z-index: 2;
 
 }
-
-.navBar h1{
+*/
+/*.navBar h1{
 
 	color: white;
 	font-size: 50px;
@@ -62,11 +63,14 @@ body{
 	text-align: left;
 	z-index: 2;
 
-}
+}*/
 
 .navBarColumn{
-
-	
+	position: relative;
+	width: 100vw;
+	right: 2vw;
+	top: 2vw;
+	text-align: right;
 
 }
 
