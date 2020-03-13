@@ -7,7 +7,7 @@ header{
 }
 body{
 
-	background-color: #fdfdfd;
+	background-color: #fff;
 	position: relative;
 	text-align: center;
 }
@@ -39,7 +39,6 @@ body img {
 .row2 {
 	display: flex;
 	position: relative;
-	width: 80vw;
 }
 
 .column2 {
@@ -56,8 +55,6 @@ body img {
 }
 .row4 {
 	display: flex;
-	position: relative;
-	width: 80vw;
 }
 
 .column4 {
@@ -67,7 +64,6 @@ body img {
 .row5 {
 	display: flex;
 	position: relative;
-	width: 80vw;
 }
 
 .column5 {
@@ -83,7 +79,35 @@ p{
 
 #div1{
 
-	border-style: solid;
-	border-radius: 14px;
+	border: hidden;
+	border-radius: 24px;
+	background-color: white;
+	text-decoration: none;
 
+}
+
+#button{
+
+	position: relative;	
+	width: 80vw; 
+	transition-duration: 0.8s;	
+
+}
+
+#button:link, #button:visited{
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+
+}
+
+#button:hover{
+
+	background-color: lightgrey;
+  	color: white;
+  	border: hidden;
+	border-radius: 24px;
+	opacity: 0.5;
 }
