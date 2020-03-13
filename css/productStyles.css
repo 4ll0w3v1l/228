@@ -16,24 +16,20 @@ body{
 	position: relative;
 	top: 100px;
 	width: 80vw;
-	
-
-
-
-
+	left: 10vw;
 
 }
 
 
 body img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: fill;
 
 }
 
 .row1 {
-  display: flex;
+	display: flex;
 }
 
 .column1 {
@@ -41,7 +37,9 @@ body img {
   padding: 5px;
 }
 .row2 {
-  display: flex;
+	display: flex;
+	position: relative;
+	width: 80vw;
 }
 
 .column2 {
@@ -49,7 +47,7 @@ body img {
   padding: 5px;
 }
 .row3 {
-  display: flex;
+	display: flex;
 }
 
 .column3 {
@@ -57,7 +55,9 @@ body img {
   padding: 5px;
 }
 .row4 {
-  display: flex;
+	display: flex;
+	position: relative;
+	width: 80vw;
 }
 
 .column4 {
@@ -65,7 +65,9 @@ body img {
   padding: 5px;
 }
 .row5 {
-  display: flex;
+	display: flex;
+	position: relative;
+	width: 80vw;
 }
 
 .column5 {
