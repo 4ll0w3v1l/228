@@ -75,7 +75,7 @@ header p{
 
 	position: relative;
 	text-align:center;
-
+	
 }
 
 #productionHeaderDiv{
@@ -124,6 +124,7 @@ header p{
   display: inline-block;
   border-radius: 14px;
   text-decoration-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 
