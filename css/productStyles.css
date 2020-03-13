@@ -21,6 +21,61 @@ body{
 	text-align: center;
 	
 }
+.navBar{
+
+	position: fixed; 
+	background-color: black;
+	color: white;
+	width: 100vw;
+	height: 10vw;
+	display: flex;
+	flex-direction: row;
+	z-index: 1;
+
+}
+
+.navBarP{
+
+	text-align: center;
+	position: relative;
+	top: 20px;
+	border-style: hidden;
+	border-color: white;
+	border-radius: 14px;
+	transition-duration: 1s;	
+}
+
+.navBarP:hover{
+
+	background-color: lightgrey;
+	position: relative;
+	top: 20px;
+  	color: grey;
+  	border: hidden;
+	border-radius: 14px;
+
+
+}
+.navBar a:link, .navBar a:visited{
+
+
+	color: white;
+	text-decoration: none;
+
+}
+
+
+
+.navBarColumn{
+	position: relative;
+	width: 100vw;
+	border-style: hidden;
+	background-color:black;
+	text-align: right;
+
+}
+
+
 
 .main{
 
@@ -31,48 +86,17 @@ body{
 	z-index: 0;
 }
 
-.navBar{
-
-	position: fixed; 
-	background-color: black;
-	color: white;
-	width: 100vw;
-	height: 100px;
-	display: flex;
-	flex-direction: row;
-	z-index: 1;
-
-}
 
 
 
-/*.navBar {
-
-	color: white;
-	font-size: 50px;
+p{
+	
+	font-size: 35px;
 	position: fixed;
-	z-index: 2;
+	top: 10px;
 
 }
-*/
-/*.navBar h1{
 
-	color: white;
-	font-size: 50px;
-	position: fixed;
-	text-align: left;
-	z-index: 2;
-
-}*/
-
-.navBarColumn{
-	position: relative;
-	width: 100vw;
-	right: 2vw;
-	top: 2vw;
-	text-align: right;
-
-}
 
 body img {
   width: 250px;
