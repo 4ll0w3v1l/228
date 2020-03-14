@@ -1,0 +1,74 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Play', sans-serif;
+}
+
+.navBar{
+
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	background-color: #333;
+	font-size: 25px;
+}
+
+ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	border-style: hidden;
+	border-radius: 14px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #444;
+	border-style: hidden;
+	border-radius: 14px;
+}
+
+.active {
+	background-color: #777;
+	border-style: hidden;
+	border-radius: 14px;
+}
+.main{
+
+
+}
+h1{
+
+	font-size: 75px;
+	position: relative;
+	text-align: center;
+	top: 45px;
+	height: 23.48vh;
+
+
+}
+#callButton{
+	background-color:#333333;
+	color: #8a8fa3;
+	font-size: 75px;
+	border-radius: 14px;
+	opacity: 0.8;
+	color:white;
+	position: relative;
+	text-align: center;
+	z-index: 0;
+	text-decoration: none;
+}

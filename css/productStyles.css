@@ -49,24 +49,6 @@ body{
 	z-index: 2;
 	width: 100vw;
 }
-/*ul {*/
-
-	/*animation*/
-/*	overflow: scroll;
-	overflow-x: hidden;
-	overflow-y: auto;
-	z-index: 1;
-	background-color: #333;
-	color: white;
-	animation: rollDown 3s 1;
-	animation-fill-mode: forwards;
-	}
-
-	@keyframes rollDown {
-	0%{height: 100vh; background-color: black;}
-	100%{height: 60px; background-color: #333}
-}*/
-	/*animation*/
 
 ul{
 

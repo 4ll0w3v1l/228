@@ -14,12 +14,10 @@ body{
 header{
 
 	background-color: black;
-	/*fulscreen*/
 	position:relative;
 	z-index: 0;
 	height: 0vh;
 	width: 100vw;
-	/*fulscreen*/
 	overflow: scroll;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -123,16 +121,11 @@ li a:hover:not(.active) {
 
 #productionHeaderDiv{
 	background-color: #fbfbfb;
-	/*fulscreen*/
 	position:relative;
 	z-index: 0;
 	height: 70vh;
-	/*fulscreen*/
 	margin: 0;
 	width: 100vw;
-/*	overflow: scroll;
-	overflow-y: auto;
-	overflow-x: hidden;*/
 }
 
 #title1{
