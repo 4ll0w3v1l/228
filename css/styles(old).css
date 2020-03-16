@@ -1,0 +1,219 @@
+  * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Play', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+	background-color: black;
+}
+header{
+
+	background-color: black;
+	position:relative;
+	z-index: 0;
+	height: 0vh;
+	width: 100vw;
+	z-index: -1;
+	background-color: black;
+	color: white;
+	animation: rollDown 3s 1;
+	animation-fill-mode: forwards;
+	}
+
+	@keyframes rollDown {
+	100% {height: 80vh;}
+}
+
+
+header h1{
+
+	font-size: 75px;
+	margin: 0;
+	color: white;
+	position: relative;
+	top:150px;
+	text-align: center;
+}
+
+header p{
+	font-family:  sans-serif;
+	font-size: 30px;
+  	color: #8a8fa3; 
+	text-align: center;
+	position: relative;
+	top:200px;
+	z-index: 0;
+	margin: 30px;
+}
+
+#button1{
+	background-color:#333333;
+	color: #8a8fa3;
+	font-size: 24px;
+	border-radius: 14px;
+	opacity: 0.8;
+	color:white;
+	padding: 15px;
+	position: relative;
+	text-align: center;
+	top: -20px;
+	z-index: 1;
+
+}
+
+#buttonDiv{
+
+	position: relative;
+	text-align:center;
+
+}
+
+.navBar{
+
+	position: fixed;
+	z-index: 1;
+	width: 100vw;
+}
+
+ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-size: 25px;
+}
+
+li {
+	float: left;
+	border-style: hidden;
+	border-radius: 14px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #444;
+	border-style: hidden;
+	border-radius: 14px;
+}
+
+.active {
+	background-color: #777;
+	border-style: hidden;
+	border-radius: 14px;
+}
+
+#productionHeaderDiv{
+	background-color: #fbfbfb;
+	position:relative;
+	z-index: 0;
+	height: 70vh;
+	margin: 0;
+	width: 100vw;
+}
+
+#title1{
+	
+	font-size: 70px;
+	color:white;
+	padding: 10px 40px;
+	text-align: center;	 
+
+}
+
+
+#desc{
+
+	font-family:  sans-serif;
+	font-size: 40px;
+  	color: #8a8fa3; 
+	position: relative;
+	top:5vh;
+	left:300px;
+	border-style: hidden;
+	border-radius: 14px;
+	width: 61vw;
+}
+
+#descHref{
+  background-color: #fbfbfb;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 14px;
+  text-decoration-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#pic{
+
+	position: relative;
+	left: 30px;
+	top: -13vh;
+}
+
+
+
+#porshniNaZakazDiv{
+	background-color: black;
+	position: relative;
+
+}
+
+#naZakazH{
+	background-color: black;
+	font-size: 70px;
+	color:white;
+	text-align: center;	
+	position: relative; 
+
+}
+
+#naZakazP{
+	background-color: black;
+	text-align: center;
+	font-family:  sans-serif;
+	font-size: 35px;
+  	color: #8a8fa3; 
+	position: relative;
+
+}
+
+footer{
+	position: relative;
+	border-style: hidden;
+	z-index: -1;
+	color: black;
+	padding: 40px;
+	height: 25vh;
+}
+
+#callButton{
+	background-color:#333333;
+	color: #8a8fa3;
+	font-size: 35px;
+	border-radius: 14px;
+	opacity: 0.8;
+	color:white;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	z-index: 1;
+
+}
