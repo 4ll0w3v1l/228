@@ -49,8 +49,17 @@
 	color: red;
 	top: 10%;
 	margin: 10px;
-
+	width: 90vw; 
+	left: 3.5%;
+	animation: redLine 3s 1;
+	animation-direction: forwards;
 }
+
+	@keyframes redLine{
+
+		0%{width: 0vw; left: 50%;}
+		100%{width: 90vw; left: 3.5%;}
+	}
 
 #sliderDivider h3{
 
@@ -76,5 +85,22 @@
 	bottom: 0;
 	opacity: 0.8;
 
+
+}
+
+/*end of first part of a page*/
+
+#mainDivider{
+	position: absolute;
+	background-color: white;
+
+}
+
+#mainDivider h1{
+
+	position: relative;
+	font-size: 50px;
+	width: 100vw;
+	text-align: center;
 
 }
