@@ -91,9 +91,10 @@
 /*end of first part of a page*/
 
 #mainDivider{
-	position: absolute;
+	position: relative;
 	background-color: white;
 	overflow-y: hidden;
+	text-align: center;
 }
 
 #mainDivider h1{
@@ -111,4 +112,26 @@
 	position: relative;
 	top: 40px;
 
+}
+
+#descDivider{
+
+	background-color: black;
+	position: relative;
+	text-align: center;
+
+}
+
+#descDivider h1{
+
+	font-size: 50px;
+	color: white;
+
+}
+
+#descDivider li{
+
+
+	color: white;
+	font-size: 25px;
 }
