@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Play', sans-serif;
+	overflow-x: hidden;
+
 }
 
 header{
@@ -16,9 +18,8 @@ header{
 	width: 100vw;
 	top: 57px;
 	background-color: black;
-	overflow: scroll;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: hidden;
 	z-index: 1;
 	background-color: #333;
 	color: white;
@@ -39,7 +40,7 @@ body{
 	background-color: #fff;
 	position: relative;
 	text-align: center;
-	background-color: white;
+	background-color: white;overflow-y: hidden;
 	
 }
 
@@ -47,7 +48,7 @@ body{
 
 	position: fixed;
 	z-index: 2;
-	width: 100vw;
+	width: 100vw;overflow-y: hidden;
 }
 
 ul{
@@ -58,7 +59,7 @@ ul{
 	overflow: hidden;
 	background-color: #333;
 	font-size: 25px;
-	animation: colorChange 3s 1;
+	animation: colorChange 3s 1;overflow-y: hidden;
 }	
 	@keyframes colorChange {
 	0%{background-color: black;}
@@ -68,7 +69,7 @@ ul{
 li {
 	float: left;
 	border-style: hidden;
-	border-radius: 14px;
+	border-radius: 14px;overflow-y: hidden;
 }
 
 li a {
@@ -76,19 +77,19 @@ li a {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
+	text-decoration: none;overflow-y: hidden;
 }
 
 li a:hover:not(.active) {
 	background-color: #444;
 	border-style: hidden;
-	border-radius: 14px;
+	border-radius: 14px;overflow-y: hidden;
 }
 
 .active {
 	background-color: #777;
 	border-style: hidden;
-	border-radius: 14px;
+	border-radius: 14px;overflow-y: hidden;
 }
 
 .main{
@@ -97,7 +98,8 @@ li a:hover:not(.active) {
 	top: 150px;
 	width: 80vw;
 	left: 9vw;
-	z-index: 0;
+	z-index: 0;overflow-y: hidden;
+
 }
 
 
@@ -106,56 +108,119 @@ li a:hover:not(.active) {
 
 body img {
   width: 250px;
-  height: 250px;
+  height: 300px;
   object-fit: fill;
+  overflow-y: hidden;
 }
 
 .row1 {
 	display: flex;
+	overflow-y: hidden;
 }
 
 .column1 {
   flex: 33.33%;
   padding: 5px;
+  overflow-y: hidden;
 }
 .row2 {
 	display: flex;
 	position: relative;
+	overflow-y: hidden;
 }
 
 .column2 {
   flex: 33.33%;
   padding: 5px;
+  overflow-y: hidden;
 }
 .row3 {
 	display: flex;
+	overflow-y: hidden;
 }
 
 .column3 {
   flex: 33.33%;
   padding: 5px;
+  overflow-y: hidden;
 }
 .row4 {
 	display: flex;
+	overflow-y: hidden;
 }
 
 .column4 {
   flex: 33.33%;
   padding: 5px;
+  overflow-y: hidden;
 }
 .row5 {
 	display: flex;
 	position: relative;
+	overflow-y: hidden;
 }
 
 .column5 {
   flex: 33.33%;
-  padding: 5px;
+  padding: 5px;overflow-y: hidden;
+}
+
+.row6 {
+	display: flex;overflow-y: hidden;
+}
+
+.column6 {
+  flex: 33.33%;
+  padding: 5px;overflow-y: hidden;
+}
+
+.row7 {
+	display: flex;overflow-y: hidden;
+}
+
+.column7 {
+  flex: 33.33%;
+  padding: 5px;overflow-y: hidden;
+}
+
+.row8 {
+	display: flex;overflow-y: hidden;
+}
+
+.column8 {
+  flex: 33.33%;
+  padding: 5px;overflow-y: hidden;
+}
+
+.row9 {
+	display: flex;overflow-y: hidden;
+}
+
+.column9 {
+  flex: 33.33%;
+  padding: 5px;overflow-y: hidden;
+}
+
+.row10 {
+	display: flex;overflow-y: hidden;
+}
+
+.column10 {
+  flex: 33.33%;
+  padding: 5px;overflow-y: hidden;
+}
+
+.row11 {
+	display: flex;overflow-y: hidden;}
+
+.column11 {
+  flex: 33.33%;
+  padding: 5px;overflow-y: hidden;
 }
 
 p{
 
-	font-size: 35px;
+	font-size: 35px;overflow-y: hidden;
 
 }
 
@@ -164,7 +229,7 @@ p{
 	border: hidden;
 	border-radius: 24px;
 	background-color: white;
-	text-decoration: none;
+	text-decoration: none;overflow-y: hidden;
 
 }
 
@@ -172,7 +237,7 @@ p{
 
 	position: relative;	
 	width: 80vw; 
-	transition-duration: 0.8s;	
+	transition-duration: 0.8s;	overflow-y: hidden;
 
 
 }
@@ -182,7 +247,7 @@ p{
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	color: black;
+	color: black;overflow-y: hidden;
 
 }
 
@@ -192,14 +257,15 @@ p{
   	color: black;
   	border: hidden;
 	border-radius: 24px;
-	opacity: 0.5;
+	opacity: 0.5;overflow-y: hidden;
 
 }
 
 .endDiv{
 	position: relative;
 	background-color: black;
-	top: 200px;
+	top: 200px;overflow-y: hidden;
+
 
 }
 
@@ -208,7 +274,7 @@ p{
 	font-size: 70px;
 	color:white;
 	text-align: center;	
-	position: relative; 
+	position: relative; overflow-y: hidden;
 
 }
 
@@ -218,7 +284,7 @@ p{
 	font-family:  sans-serif;
 	font-size: 35px;
   	color: #8a8fa3; 
-	position: relative;
+	position: relative;overflow-y: hidden;
 
 }
 #callButton{
@@ -226,7 +292,7 @@ p{
 	color: #8a8fa3;
 	font-size: 35px;
 	border-radius: 14px;
-	opacity: 0.8;
+	opacity: 0.8;overflow-y: hidden;
 	color:white;
 	position: relative;
 	text-align: center;
