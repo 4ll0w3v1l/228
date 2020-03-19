@@ -72,6 +72,7 @@
 	font-size: 63px;
 	top:200px;
 	right: 0;
+	margin-right: 160px;
 
 }
 
@@ -111,7 +112,11 @@
 
 }
 
+#NaN{
 
+	visibility: hidden;
+
+}
 
 #more{
 
@@ -138,8 +143,8 @@
 /*.endDiv{
 
 	position: absolute;
-	bottom: 0;
 	width: 100vw;
+	bottom: 0;
 	background-color: black;
 
 }
