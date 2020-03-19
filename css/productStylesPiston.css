@@ -69,7 +69,7 @@
 #main h1{
 
 	position: absolute;
-	font-size: 65px;
+	font-size: 63px;
 	top:200px;
 	right: 0;
 
@@ -106,7 +106,7 @@
 	color: red;
 	top: 238px;
 	width: 90vw; 
-	left: 3.5%;
+	left: 5%;
 	z-index: 1;
 
 }
@@ -124,7 +124,7 @@
 	position: relative;
 	top: 250px;
 	width: 90vw;
-	left: 3.75%;
+	left: 5.275%;
 	font-size: 35px;
 	color: white;
 	border-style: hidden;
