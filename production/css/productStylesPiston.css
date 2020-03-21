@@ -2,6 +2,7 @@
 
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 
 }
 
@@ -14,6 +15,7 @@
 	width: 100vw;
 	background-color: #333;
 	font-size: 25px;
+	overflow-y: hidden;
 }
 
 .navBar img{
@@ -23,6 +25,7 @@
 	z-index: 2;
 	width: 65.5px;
 	height: 59px;
+
 
 }
 
@@ -60,9 +63,13 @@
 }
 /*navBar*/
 
+body{
+	overflow-x: visible;
+}
 #main{
 
 	position: relative;
+	overflow-x: visible;
 
 }
 
@@ -73,13 +80,14 @@
 	top:200px;
 	right: 0;
 	margin-right: 160px;
-
+	overflow-x: visible;
 }
 
 #main ul{
 
 	position: absolute;
 	right: 0;
+	overflow-x: visible;
 
 }
 
@@ -89,6 +97,7 @@
 	font-size: 20px;
 	top:50px;
 	right:0;
+	overflow-x: visible;
 
 }
 
@@ -97,6 +106,7 @@
 	position: relative;
 	top:200px;
 	left: 50px;
+	overflow-x: visible;
 
 }
 
@@ -109,19 +119,32 @@
 	width: 90vw; 
 	left: 5%;
 	z-index: 1;
+	overflow-x: visible;
 
 }
 
 #NaN{
 
 	visibility: hidden;
+	overflow-x: visible;
 
 }
 
 #more{
 
+	position: relative;
+	top: 300px;
+	left: 50px;
+	width: 90vw;
+	height: 0%;
+	text-align: center;
+	background-color: white;
+	overflow-x: visible;
+}
+.img1 {
 
-
+	z-index: 1;
+	overflow-x: visible;
 }
 
 #moreInfo{
@@ -136,16 +159,18 @@
 	border-radius: 30px;
 	background-color:darkred;
 	opacity: 0.7;
+	overflow-x: visible;
 }
 
 
 /*ending*/
-/*.endDiv{
+.endDiv{
 
-	position: absolute;
+	position: relative;
 	width: 100vw;
-	bottom: 0;
+	bottom: -300px;
 	background-color: black;
+	overflow-x: hidden;
 
 }
 
@@ -153,6 +178,7 @@
 	text-align: center;
 	color: white;
 	font-size: 70px;
+	overflow-x: hidden;
 
 }
 
@@ -160,6 +186,7 @@
 	text-align: center;
 	font-size: 35px;
   	color: #8a8fa3; 
+  	overflow-x: hidden;
  }
 #callButton{
 	background-color:#333333;
@@ -172,5 +199,6 @@
 	text-align: center;
 	z-index: 0;
 	text-decoration: none;
-}*/
+	overflow-x: hidden;
+}
 /*ending*/
