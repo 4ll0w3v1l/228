@@ -24,6 +24,18 @@
 
 }
 
+body{
+
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+#main{
+
+	height: 100vh;
+
+}
 ul{
 
 	list-style-type: none;
@@ -56,20 +68,19 @@ li a:hover:not(.active) {
 	border-style: hidden;
 	border-radius: 14px;
 }
-.main{
 
-
-}
 h1{
 
 	font-size: 75px;
-	position: relative;
+	position:relative;
 	text-align: center;
 	top: 45px;
-	height: 23.48vh;
-
+	background-color: grey;
+	opacity: 0.8;
+	
 
 }
+
 #callButton{
 	background-color:#333333;
 	color: #8a8fa3;
