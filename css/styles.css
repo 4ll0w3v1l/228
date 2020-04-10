@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+	font-family: 'Jura', sans-serif;
 }
 
 #sliderDivider{
@@ -22,9 +23,18 @@
 	100%{height: 80vh;}
 }
 
+#dvs{
+
+	position: relative;
+	top:51px;
+	left: 3.5%;
+	height: 75px;
+	text-align: center;
+
+}
 #icon{
 
-	opacity: 0.25;
+	opacity: 0.19;
 	position: relative;
 	width: 786px;
 	height: 708px;
