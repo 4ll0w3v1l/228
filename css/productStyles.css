@@ -48,7 +48,8 @@ body{
 
 	position: fixed;
 	z-index: 2;
-	width: 100vw;overflow-y: hidden;
+	width: 100vw;
+	overflow-y: hidden;
 }
 
 .navBar img{

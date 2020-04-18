@@ -42,6 +42,14 @@
 
 /*	bottom: 10%;*/
 }
+#newtech{
+
+	position: absolute;
+	top: 25px;
+	right: 5.5%;
+
+}
+
 #divPic{
 	position:absolute;
 	width: 100vw;
@@ -104,21 +112,34 @@
 	text-align: center;
 	color: white;
 	font-size: 2.5vw;
-	top: 50%;
+	top: 55%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 
 }
-
 #productButton{
 
-	font-size: 60px;
+	font-size: 30px;
 	position: absolute;
 	border-radius: 14px;
 	background-color: white;
-	width: 50vw;
+	width: 30vw;
 	text-align: center;
-	left: 25%;
+	left: 20%;
+	bottom: 0;
+	opacity: 0.8;
+	z-index: 2;
+
+}
+#productButtonC{
+
+	font-size: 30px;
+	position: absolute;
+	border-radius: 14px;
+	background-color: white;
+	width: 30vw;
+	text-align: center;
+	left: 55%;
 	bottom: 0;
 	opacity: 0.8;
 	z-index: 2;
