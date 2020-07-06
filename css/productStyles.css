@@ -23,7 +23,7 @@ header{
 	background-color: #333;
 	color: white;
 	z-index: 1;
-	animation: rollUp 3s 1;
+	animation: rollUp 1.5s 1;
 	animation-fill-mode: forwards;
 	}
 
