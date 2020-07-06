@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-
 }
 
 /*navBar*/
@@ -123,12 +122,6 @@ body{
 
 }
 
-#NaN{
-
-	visibility: hidden;
-	overflow-x: visible;
-
-}
 
 #more{
 
@@ -164,11 +157,11 @@ body{
 
 
 /*ending*/
-.endDiv{
+#endDiv{
 
 	position: relative;
 	width: 100vw;
-	bottom: -300px;
+	
 	background-color: black;
 	overflow-x: hidden;
 

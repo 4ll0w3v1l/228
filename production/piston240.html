@@ -38,19 +38,17 @@
 	</div>
 	<div id="redLine"></div>
 
-	<button id="moreInfo" onclick="anim()">Больше информации</button>
+	<button id="moreInfo" onclick="anim();vh();">Больше информации</button>
 
-	<div id="NaN">
-		
+	<div id="more" style="display: none;">
+
 		<img class="img1" src="img\blueprints\piston-240.png"><br>
 		<img class="img1" src="img\blueprints\piston-240_2.png"><br>
 		<img class="img1" src="img\blueprints\piston-240_1.png"><br>
 		
-
-
 	</div>
 	
-	<div class="endDiv">
+	<div id="endDiv" style="bottom: -57.5vh;">
 		<h1 id="naZakazH">Мы делаем поршни на заказ!</h1>
 	
 			<p id="naZakazP">	Изготовим любые поршни по Вашим чертежам,<br>
@@ -62,8 +60,26 @@
 </body>
 
 	<script type="text/javascript">
-		function anim() {
-			document.getElementById("NaN").id = 'more';
+		function anim(){
+			var main = document.getElementById('more')
+			var button = document.getElementById('moreInfo')
+			if (main.style.display == 'block'){
+				main.style.display = 'none';
+				document.getElementById('moreInfo').innerHTML = 'Больше информации'
+			}else {
+				main.style.display = 'block';
+				document.getElementById('moreInfo').innerHTML = 'Меньше информации'
+			}
+		}
+
+		function vh(){
+			var main = document.getElementById('more')
+			var endDiv = document.getElementById('endDiv')
+			if  (endDiv.style.bottom=='-57.5vh') {
+				endDiv.style.bottom = '-35vh';
+			}else{
+				endDiv.style.bottom = '-57.5vh'
+			}
 		}
 	</script>
 </html>
