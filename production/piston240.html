@@ -33,53 +33,63 @@
 			<li>Количество на двигатель — 4 шт.</li>
 			<li>По желанию заказчика исполняется графитизация изделий.</li>
 		</ul>
-
-
 	</div>
+
+
+	
 	<div id="redLine"></div>
-
-	<button id="moreInfo" onclick="anim();vh();">Больше информации</button>
-
-	<div id="more" style="display: none;">
-
-		<img class="img1" src="img\blueprints\piston-240.png"><br>
-		<img class="img1" src="img\blueprints\piston-240_2.png"><br>
-		<img class="img1" src="img\blueprints\piston-240_1.png"><br>
-		
-	</div>
 	
-	<div id="endDiv" style="bottom: -57.5vh;">
-		<h1 id="naZakazH">Мы делаем поршни на заказ!</h1>
+		<button id="moreInfo" onclick="anim();vh();">Больше информации</button>
 	
-			<p id="naZakazP">	Изготовим любые поршни по Вашим чертежам,<br>
-								размерам или даже использованным изделиям!<br>
-								Возможны выполнения модификаций.<br>
-								Заказать\узнать подробнее по телефону:<br> <a href="tel:+7(495)150-88-12" id="callButton">+7(495)150-88-12</a></p>
-	</div>
+		<div id="more">
+	
+			<img class="img1" src="img\blueprints\piston-240.png"><br>
+			<img class="img1" src="img\blueprints\piston-240_2.png"><br>
+			<img class="img1" src="img\blueprints\piston-240_1.png"><br>
+			
+		</div>
 
 </body>
 
+<div id="endDiv">
+	<h1 id="naZakazH">Мы делаем поршни на заказ!</h1>
+
+		<p id="naZakazP">	Изготовим любые поршни по Вашим чертежам,<br>
+							размерам или даже использованным изделиям!<br>
+							Возможны выполнения модификаций.<br>
+							Заказать\узнать подробнее по телефону:<br> <a href="tel:+7(495)150-88-12" id="callButton">+7(495)150-88-12</a></p>
+</div>
+
+
+
 	<script type="text/javascript">
 		function anim(){
-			var main = document.getElementById('more')
-			var button = document.getElementById('moreInfo')
-			if (main.style.display == 'block'){
-				main.style.display = 'none';
+			var more = document.getElementById('more')
+			if (more.style.display == 'block'){
+				more.style.display = 'none';
 				document.getElementById('moreInfo').innerHTML = 'Больше информации'
 			}else {
-				main.style.display = 'block';
+				more.style.display = 'block';
 				document.getElementById('moreInfo').innerHTML = 'Меньше информации'
 			}
 		}
 
 		function vh(){
-			var main = document.getElementById('more')
 			var endDiv = document.getElementById('endDiv')
-			if  (endDiv.style.bottom=='-57.5vh') {
-				endDiv.style.bottom = '-35vh';
+			var more = document.getElementById('more')
+			if (more.style.display == 'none'){
+				endDiv.style.position = 'absolute';
+				endDiv.style.bottom = '0'
 			}else{
-				endDiv.style.bottom = '-57.5vh'
+				endDiv.style.position = 'relative';
+				endDiv.style.bottom = '-50vh'
 			}
+			// var endDiv = document.getElementById('endDiv')
+			// if  (endDiv.style.bottom=='-57.5vh') {
+			// 	endDiv.style.bottom = '-35vh';
+			// }else{
+			// 	endDiv.style.bottom = '-57.5vh'
+			// }
 		}
 	</script>
 </html>
